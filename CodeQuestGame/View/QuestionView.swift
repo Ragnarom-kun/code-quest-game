@@ -18,26 +18,10 @@ struct QuestionView: View {
                     .font(.title)
                     .padding()
                 
-                TextField("Enter your answer", text: $questViewModel.answer)
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
-                    .padding()
-                
-                Button(action: {
-                    if questViewModel.checkAnswer() {
-                        print("Correct Answer")
-                    } else {
-                        print("Incorrect Answer")
-                    }
-                }) {
-                    Text("Submit")
-                        .font(.title)
+                NavigationLink(destination: AnswerView(questViewModel: questViewModel)) {
+                    Text("Submit Answer")
                         .padding()
-                        .background(Color.green)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
                 }
-                
-                Spacer()
             } else {
                 Text("No current quest")
                     .font(.title)
@@ -47,5 +31,6 @@ struct QuestionView: View {
         .navigationBarTitle("Current Quest", displayMode: .inline)
     }
 }
+
 
 

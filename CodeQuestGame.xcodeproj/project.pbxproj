@@ -16,7 +16,6 @@
 		E4C830482BFC44C0008C075F /* CodeQuestGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C830472BFC44C0008C075F /* CodeQuestGameUITestsLaunchTests.swift */; };
 		E4C830562BFC51F8008C075F /* Quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C830552BFC51F8008C075F /* Quest.swift */; };
 		E4C8305A2BFC5476008C075F /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C830592BFC5476008C075F /* BeaconManager.swift */; };
-		E4C8305C2BFC550F008C075F /* DistanceMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8305B2BFC550F008C075F /* DistanceMetric.swift */; };
 		E4C8305F2BFC5662008C075F /* QuestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8305E2BFC5662008C075F /* QuestViewModel.swift */; };
 		E4CFFAEF2C04231500BAD67A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CFFAEE2C04231500BAD67A /* HomeView.swift */; };
 		E4CFFAF12C04235100BAD67A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CFFAF02C04235100BAD67A /* QuestionView.swift */; };
@@ -55,7 +54,6 @@
 		E4C830552BFC51F8008C075F /* Quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quest.swift; sourceTree = "<group>"; };
 		E4C830572BFC53D9008C075F /* Info.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Info.xcprivacy; sourceTree = "<group>"; };
 		E4C830592BFC5476008C075F /* BeaconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
-		E4C8305B2BFC550F008C075F /* DistanceMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMetric.swift; sourceTree = "<group>"; };
 		E4C8305E2BFC5662008C075F /* QuestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestViewModel.swift; sourceTree = "<group>"; };
 		E4CFFAEE2C04231500BAD67A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E4CFFAF02C04235100BAD67A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				E4C830552BFC51F8008C075F /* Quest.swift */,
-				E4C8305B2BFC550F008C075F /* DistanceMetric.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,7 +321,6 @@
 				E4C830562BFC51F8008C075F /* Quest.swift in Sources */,
 				E4C8305F2BFC5662008C075F /* QuestViewModel.swift in Sources */,
 				E4C8302B2BFC44BE008C075F /* CodeQuestGameApp.swift in Sources */,
-				E4C8305C2BFC550F008C075F /* DistanceMetric.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

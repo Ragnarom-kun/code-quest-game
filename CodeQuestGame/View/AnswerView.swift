@@ -14,6 +14,10 @@ struct AnswerView: View {
     var body: some View {
         VStack {
             if let quest = questViewModel.currentQuest {
+                Text(quest.question)
+                    .font(.title)
+                    .padding()
+                
                 TextField("Enter your answer", text: $questViewModel.answer)
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .padding()
@@ -21,8 +25,10 @@ struct AnswerView: View {
                 Button(action: {
                     if questViewModel.checkAnswer() {
                         print("Correct Answer")
+                        // Add any additional logic for correct answer (e.g., show a success message)
                     } else {
                         print("Incorrect Answer")
+                        // Add any additional logic for incorrect answer (e.g., show an error message)
                     }
                 }) {
                     Text("Submit")
@@ -40,7 +46,8 @@ struct AnswerView: View {
                     .padding()
             }
         }
-        .navigationBarTitle("Current Quest", displayMode: .inline)
+        .navigationBarTitle("Submit Answer", displayMode: .inline)
     }
 }
+
 

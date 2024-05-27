@@ -21,7 +21,7 @@ class BeaconManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     }
     
     func startMonitoring() {
-        let beaconRegion = CLBeaconRegion(uuid: UUID(uuidString: "YOUR-BEACON-UUID")!, identifier: "Beacon1")
+        let beaconRegion = CLBeaconRegion(uuid: UUID(uuidString: "14D8F312-5213-4674-AD77-95F3AF932992")!, identifier: "Beacon1")
         
         locationManager.startMonitoring(for: beaconRegion)
         locationManager.startRangingBeacons(satisfying: beaconRegion.beaconIdentityConstraint)
